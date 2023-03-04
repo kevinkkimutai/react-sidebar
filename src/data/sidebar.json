@@ -1,40 +1,14 @@
 [
     {
-        "title": "General",
+        "title": "Dashboard",
         "icon": "bi-gear-fill",
         "childrens": [
             {
                 "title": "Home",
                 "icon": "bi-house-fill",
                 "path": "/"
-            },
-            {
-                "title": "About",
-                "icon": "bi-info-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "Contact",
-                "icon": "bi-phone-fill",
-                "childrens": [
-                    {
-                        "title": "Facebook",
-                        "icon": "bi-facebook"
-                    },
-                    {
-                        "title": "Twitter",
-                        "icon": "bi-twitter"
-                    },
-                    {
-                        "title": "Instagram",
-                        "icon": "bi-instagram"
-                    }
-                ]
-            },
-            {
-                "title": "FAQ",
-                "icon": "bi-question-circle-fill"
             }
+            
         ]
     },
     {
@@ -50,68 +24,101 @@
                 "path": "/register"
             },
             {
-                "title": "Forgot Password",
-                "path": "/forgot-password"
-            },
-            {
                 "title": "Reset Password",
                 "path": "/reset-password"
             }
         ]
     },
     {
-        "title": "Profile",
+        "title": "Projects",
         "icon": "bi-person-fill",
         "childrens": [
             {
-                "title": "Profile",
-                "path": "/profile"
+                "title": "Projects List",
+                "path": "/projectlist"
             },
             {
-                "title": "Settings",
+                "title": "New Project",
                 "childrens": [
                     {
-                        "title": "Account",
-                        "path": "/settings/account"
+                        "title": "Add Project",
+                        "path": "/addproject"
                     },
                     {
-                        "title": "Billing",
-                        "childrens": [
-                            {
-                                "title": "Payment",
-                                "path": "/settings/billing/payment"
-                            },
-                            {
-                                "title": "Subscription",
-                                "path": "/settings/billing/subscription"
-                            }
-                        ]
+                        "title": "Add Details",
+                        "path": "/projectdetails"
                     },
                     {
-                        "title": "Notifications",
-                        "path": "/settings/notifications"
+                        "title": "Delete Project",
+                        "path": "/settings/billing/subscription"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "title": "Members",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Members List",
+                "path": "/memberslist"
             },
             {
-                "title": "Logout",
+                "title": "Add Member",
+                "path": "/addmember"
+            },
+            {
+                "title": "Delete Member",
+                "path": "/deletemember"
+            }
+        ]
+    },
+    {
+        "title": "Status",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Status List",
+                "path": "/search"
+            },
+            {
+                "title": "Add Status",
+                "path": "/logout"
+            },
+            {
+                "title": "Delete Status",
                 "path": "/logout"
             }
         ]
     },
     {
-        "title": "Advance",
-        "icon": "bi-view-list",
+        "title": "Contact",
+        "icon": "bi-phone-fill",
         "childrens": [
             {
-                "title": "Search",
-                "path": "/search"
+                "title": "Facebook",
+                "icon": "bi-facebook"
             },
             {
-                "title": "History",
-                "path": "/history"   
+                "title": "Twitter",
+                "icon": "bi-twitter"
+            },
+            {
+                "title": "Instagram",
+                "icon": "bi-instagram"
             }
         ]
+    },
+    {
+        "title": "About",
+        "icon": "bi-info-circle-fill",
+        "path": "/about"
+    },
+    
+    {
+        "title": "FAQ",
+        "icon": "bi-question-circle-fill"
     },
     {
         "title": "Support",
@@ -122,5 +129,10 @@
         "title": "Report Bug",
         "icon": "bi-bug",
         "path": "/report-bug"
+    },
+    {
+        "title": "Logout",
+        "icon": "bi-bug"
+        
     }
 ]
